@@ -1,0 +1,22 @@
+{
+  "name": "oc-fallback",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "exports": "./src/index.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "bun test"
+  },
+  "peerDependencies": {
+    "@opencode/plugin": "^2.0.30",
+    "effect": "^4.0.1"
+  },
+  "devDependencies": {
+    "@opencode/plugin": "^2.0.30",
+    "effect": "^4.0.1"
+  }
+}
